@@ -1,0 +1,35 @@
+# Git ignore file for Flow Matching & Reflow 2D
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Checkpoints and models
+checkpoints/
+*.pt
+
+# Outputs and plots
+outputs/
+*.png
+
+# Large datasets and static arrays
+data/*.npy
+data/reflow_pairs.npy
+
+# Virtual environments
+venv/
+ENV/
+env/
+
+# IDE settings and project configs
+.vscode/
+.idea/
+.agents/
+.gemini/
+.ipynb_checkpoints/
+
+# Temporary files
+*.zip
+*.tar.gz
